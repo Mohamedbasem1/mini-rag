@@ -27,3 +27,12 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 set you environment variables in the .env file. Like OPENAI_API_KEY = your_api_key
+
+## run the fastapi server
+```bash
+uvicorn main:app --reload
+```     
+## postman collection
+```bash
+postman_collection.json
+```
