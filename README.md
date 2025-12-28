@@ -30,7 +30,7 @@ set you environment variables in the .env file. Like OPENAI_API_KEY = your_api_k
 
 ## run the fastapi server
 ```bash
-uvicorn main:app --reload
+uvicorn main:app --reload --host 0.0.0.0 --port 5000
 ```     
 ## postman collection
 ```bash
