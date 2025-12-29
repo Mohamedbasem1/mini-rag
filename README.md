@@ -11,11 +11,11 @@ This is a simple RAG (Retrieval Augmented Generation) system built with Python, 
 1) Download miniconda from https://docs.conda.io/en/latest/miniconda.html
 2) create a new environment
 ```bash
-conda create -n mini-rag python=3.8
+conda create -n mini-rag-app python=3.8
 ``` 
 3) activate the environment
 ```bash
-conda activate mini-rag
+conda activate mini-rag-app
 ```     
 4) install requirements
 ```bash
